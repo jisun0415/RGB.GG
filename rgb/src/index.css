@@ -24,7 +24,7 @@ body
 #menubar{
   font-size : 20px;
   text-align: left;
-  background-color: #475065;
+  background-color: white ;
   
   }
 #menubar :hover
@@ -72,16 +72,20 @@ body
   transform:translate(-50%,-50%);
 }
 
-input{
-  font-size : 25px;
-  border-radius:30px;
-  width: 300px;
-  padding: 13px;
-  margin-left:10px;
+.div-button{
   outline: none;
-  float: left; 
-  border:none;
+  margin-right:130px;
 }
+
+.button1{
+  border:none;
+  border-radius:15px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  float: right;
+}
+
 
 button{
   width: 70px;
@@ -93,6 +97,7 @@ button{
   float: right;
   color: #475065;
 }
+
 
 
 @media (prefers-reduced-motion: no-preference) {

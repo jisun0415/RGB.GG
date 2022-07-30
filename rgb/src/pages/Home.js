@@ -25,7 +25,7 @@ const Home = () =>{
 
     <div className="search">
         <input type="text" placeholder="Welcome to RGB"/>
-        <button>.GG</button>
+        <button className="search_button">.GG</button>
     </div>
     
     </div>

@@ -8,13 +8,13 @@ body
 #menubar{
   font-size : 20px;
   text-align: left;
-  background-color: #475065;
+  background-color: white;
   
   }
 #menubar :hover
 {
-    color:#f9f6b1;
-}
+    color:black;
+  }
 
 #menubar ul li{
   display : inline-block;
@@ -22,9 +22,10 @@ body
   padding : 10px 15px;
   }
 #menubar ul li a{
-      color: white;
+      color: #595959;
       text-decoration : none;
       text-align: center;
+      font-weight: bold;
   } 
   
 .slogan{
@@ -67,16 +68,6 @@ input{
   border:none;
 }
 
-button{
-  width: 70px;
-  font-size: 25px;
-  border-radius:30px;
-  height:100%;
-  border : 0px;
-  outline: none;
-  float: right;
-  color: #475065;
-}
 
 
 @media (prefers-reduced-motion: no-preference) {
