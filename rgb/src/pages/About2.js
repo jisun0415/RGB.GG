@@ -2,13 +2,13 @@ import {BrowserRouter, Link} from 'react-router-dom';
 import '../App.css';
 import '../css/table.css';
 
-function About() {
+function About2() {
     const obj={
         header : ["순위","이름","티어","거래량","종가"],
         data : [
-            {rank : "1", name: "삼성전자", tier :"Gold", volume : "50%", cp : "10000000" },
-            {rank : "2", name: "대한전선", tier :"Gold", volume : "50%", cp : "10000000"},
-            {rank : "3", name: "SKHynics", tier :"Gold", volume : "50%", cp : "10000000"},
+            {rank : "1", name: "오지선", tier :"Gold", volume : "50%", cp : "10000000" },
+            {rank : "2", name: "오지선1", tier :"Gold", volume : "50%", cp : "10000000"},
+            {rank : "3", name: "오지선3", tier :"Gold", volume : "50%", cp : "10000000"},
             {rank : "4", name: "삼성바이오로직스", tier :"Gold", volume : "50%", cp : "10000000"},
             {rank : "5", name: "키다리스튜디오", tier :"Gold", volume : "50%", cp : "10000000"},
             {rank : "6", name: "삼성SDI", tier :"Gold", volume : "50%", cp : "10000000"},
@@ -26,9 +26,8 @@ function About() {
             
         ],
     };
-
-    return (
-    <div>
+    return(
+        <div>
         <nav id="menubar">
         <ul>
             <li><Link to="/">HOME</Link></li>
@@ -65,8 +64,9 @@ function About() {
                 </tbody>
             </table>
         </div>
-    </div>
+        </div>
+
     );
 };
 
-export default About;
+export default About2;

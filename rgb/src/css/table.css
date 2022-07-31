@@ -10,12 +10,21 @@ body {
     font-weight: 100;
 }
 
+.content{
+    font-size:15px;
+    margin-left :140px; 
+    position : absolute;
+    top : 23%;
+    color: black;
+    font-weight: bold;
+}
+
 .container {
     position: absolute;
-    top: 45%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    margin-bottom : 50px;
 }
 
 table {
@@ -23,6 +32,7 @@ table {
     border-collapse: collapse;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-bottom : 50px;
 }
 
 th,

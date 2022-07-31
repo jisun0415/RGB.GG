@@ -20,28 +20,6 @@ body
   background-size: 100%;
   background-color: #DCE2F0;
 }
-
-#menubar{
-  font-size : 20px;
-  text-align: left;
-  background-color: white ;
-  
-  }
-#menubar :hover
-{
-    color:#f9f6b1;
-}
-
-#menubar ul li{
-  display : inline-block;
-  list-style-type: none;
-  padding : 10px 15px;
-  }
-#menubar ul li a{
-      color: white;
-      text-decoration : none;
-      text-align: center;
-  } 
   
 .slogan{
   width: 700px;
@@ -77,16 +55,6 @@ body
   margin-right:130px;
 }
 
-.button1{
-  border:none;
-  border-radius:15px;
-  width: 100px;
-  font-size: 15px;
-  font-weight: bold;
-  float: right;
-}
-
-
 button{
   width: 70px;
   font-size: 25px;
@@ -97,6 +65,21 @@ button{
   float: right;
   color: #475065;
 }
+.button1{
+  border:none;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  float: right;
+  background-color: white;
+  box-shadow: 0px 0px 5px #595959;
+}
+
+.div-button :hover{
+  background-color: #55608f;
+  color: white; 
+}
+
 
 
 
