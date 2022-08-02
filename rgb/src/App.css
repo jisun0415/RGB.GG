@@ -7,14 +7,12 @@ body
 
 #menubar{
   font-size : 20px;
-  text-align: left;
   background-color: white;
-  
   }
 #menubar :hover
 {
     color:black;
-  }
+}
 
 #menubar ul li{
   display : inline-block;
@@ -27,7 +25,8 @@ body
       text-align: center;
       font-weight: bold;
   } 
-  
+
+
 .slogan{
   width: 700px;
   height:50px;

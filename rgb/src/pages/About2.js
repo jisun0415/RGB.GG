@@ -64,11 +64,13 @@ function About2() {
         <ul>
             <li><Link to="/">HOME</Link></li>
             <li><Link to="/about">RANKING</Link></li>
+            <li><Link to="/member">MEMBER</Link></li>
+            <li><Link to="/guide">GUIDE</Link></li>
         </ul>
         </nav>
         <br/><br/>
         <div className="div-button">
-            <span className="content">*보통주로만 분석하였습니다.</span>
+            <span className="content">*보통주로만 분석된 결과입니다.</span>
             <Link to="/about2"><input className="button1" type="button" value="코스닥"></input></Link>
             <Link to="/about"><input className="button1" type="button" value="유가증권"></input></Link>
         </div>
