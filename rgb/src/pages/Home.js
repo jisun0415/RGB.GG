@@ -24,8 +24,8 @@ const Home = () =>{
     </div>
 
     <div className="search">
-        <input type="text" placeholder="Welcome to RGB"/>
-        <button className="search_button">.GG</button>
+    <Link to="/information1"><input className="input-1" type="text" placeholder="Welcome to RGB"/>
+        <button className="search_button">.GG</button></Link>
     </div>
     
     </div>

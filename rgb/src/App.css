@@ -57,7 +57,7 @@ body
   transform:translate(-50%,-50%);
 }
 
-input{
+.input-1{
   font-size : 25px;
   border-radius:30px;
   width: 300px;
@@ -67,7 +67,28 @@ input{
   float: left; 
   border:none;
 }
+.input-2{
+  font-size : 15px;
+  border-radius:30px;
+  width: 300px;
+  padding-top: 10px;
+  margin-left:10px;
+  outline: none;
+  float: left; 
+  border:none;
+}
 
+.search-info{
+  height: 40px;
+  width: 600px;
+  border: none;
+  border-radius:30px;
+  background-color: #ffffff;
+  position : absolute;
+  top:20%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

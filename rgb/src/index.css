@@ -67,19 +67,21 @@ button{
 }
 .button1{
   border:none;
+  border-radius: 20px;;
   width: 100px;
   font-size: 15px;
   font-weight: bold;
   float: right;
   background-color: white;
   box-shadow: 0px 0px 5px #595959;
+  margin-left : 20px;
+  height:40px;
 }
 
 .div-button :hover{
   background-color: #55608f;
   color: white; 
 }
-
 
 
 
