@@ -2,8 +2,9 @@ import {BrowserRouter, Link} from 'react-router-dom';
 import '../App.css';
 import '../css/table.css';
 import '../css/member.css';
-
 import Jisun from '../images/jisun.jpg';
+import Seungjae from '../images/seungjae.jpg';
+
 function Member() {
     return (
         <div>
@@ -15,7 +16,6 @@ function Member() {
                 <li><Link to="/guide">GUIDE</Link></li>
             </ul>
             </nav>
-            <br/><br/>
             <div className="membertable" >
                 <table className="mt">
                     <tr>
@@ -29,36 +29,39 @@ function Member() {
                         <img className="jisun" src={Jisun}/>
                         </td>
                         <td>
-                        <img className="jisun" src={Jisun}/>
+                        <img className="seungjae" src={Seungjae}/>
                         </td>
+                    </tr>
+                    <tr>
+                        <td>" 멈추는 법을 <br/> 모르는 토끼 오지선 "</td>
+                        <td>"  "</td>
+                        <td>"  "</td>
+                        <td>" 분위기를 상쾌하게 만들어줄<br/>미세먼지 필터 문승재 "</td>
                     </tr>
                     <tr>
                         <td>
                         <div className="jisun-des">
-                            이름 : 오지선 <br/>
                             담당 : 개발팀 <br/>
                             소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
                         </div>
                         </td>
                         <td>
                         <div className="jisun-des">
-                        이름 : 오지선 <br/>
-                        담당 : 개발팀 <br/>
-                        소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        담당 : 분석팀 <br/>
+                        소속 : 세종대학교 <br/> 데이터사이언스<br/><br/>
                         </div>
                         </td>
                         <td>
                         <div className="jisun-des">
-                        이름 : 오지선 <br/>
                         담당 : 개발팀 <br/>
-                        소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        소속 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학<br/>
+
                         </div>
                         </td>
                         <td>
                         <div className="jisun-des">
-                        이름 : 오지선 <br/>
-                        담당 : 개발팀 <br/>
-                        소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        담당 : 분석팀 <br/>
+                        소속 : 세종대학교 <br/> 데이터사이언스<br/><br/>
                         </div>
                         </td>
                     </tr>
