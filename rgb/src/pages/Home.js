@@ -24,12 +24,12 @@ const Home = () =>{
     <div>
         <img className="slogan" src={imagemain}/>
     </div>
-
-    <div className="search">
-    <Link to="/information1"><input className="input-1" type="text" placeholder="Welcome to RGB"/>
-        <button className="search_button">.GG</button></Link>
-    </div>
-    
+    <form action="https://www.google.com/search" method="GET">
+        <div className="search">
+        <input className="input-1" type="text" name="q" placeholder="Welcome to RGB"/>
+        <button className="search_button" type="submit">.GG</button>
+        </div>
+    </form>
     </div>
     );
 };
