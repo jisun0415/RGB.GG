@@ -55,12 +55,33 @@ body
   left:50%;
   transform:translate(-50%,-50%);
 }
+.search-small{
+  height: 35px;
+  width: 500px;
+  border: none;
+  border-radius:30px;
+  background-color: #ffffff;
+  position : absolute;
+  top:15%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
 
 .input-1{
-  font-size : 25px;
+  font-size : 20px;
   border-radius:30px;
   width: 300px;
   padding: 13px;
+  margin-left:10px;
+  outline: none;
+  float: left; 
+  border:none;
+}
+.input-1-small{
+  font-size : 15.5px;
+  border-radius:30px;
+  width: 150px;
+  padding: 8.5px;
   margin-left:10px;
   outline: none;
   float: left; 

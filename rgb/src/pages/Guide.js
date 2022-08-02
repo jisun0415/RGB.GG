@@ -1,7 +1,7 @@
 import {BrowserRouter, Link} from 'react-router-dom';
 import '../App.css';
 import '../css/table.css';
-
+import '../css/guide.css';
 function  Guide() {
     return (
         <div>
@@ -13,9 +13,17 @@ function  Guide() {
                 <li><Link to="/guide">GUIDE</Link></li>
             </ul>
             </nav>
-            <br/><br/>
-            <div >
-                
+            <div className="guidetable" >
+                <table >
+                    <tr>
+                        HOME 페이지 이용 GUIDE <br></br><br></br>
+                        &nbsp; 어쩌고 저쩌고 어쩌고 저쩌고<br></br><br></br>
+                    </tr>
+                    <tr>
+                        Ranking 페이지 이용 GUIDE <br></br><br></br>
+                        &nbsp; 어쩌고 저쩌고 어쩌고 저쩌고
+                    </tr>
+                </table>
             </div>
 
             </div>

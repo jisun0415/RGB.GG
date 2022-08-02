@@ -70,6 +70,12 @@ function About() {
             <li><Link to="/guide">GUIDE</Link></li>
         </ul>
         </nav>
+        <form action="https://www.google.com/search" method="GET">
+                <div className="search-small">
+                <input className="input-1-small" type="text" name="q" placeholder="Welcome to RGB"/>
+                <button className="search_button-small" type="submit">.GG</button>
+                </div>
+        </form>
         <br/><br/>
         <div className="div-button">
             <span className="content">*보통주로만 분석된 결과입니다.</span>
