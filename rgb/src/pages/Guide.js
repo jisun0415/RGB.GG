@@ -14,11 +14,9 @@ function  Guide() {
             </ul>
             </nav>
             <br/><br/>
-            <div className="div-button">
-                가이드 페이지에 잘 들어왔음.
+            <div >
+                
             </div>
-
-
 
             </div>
     );

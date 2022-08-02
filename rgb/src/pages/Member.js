@@ -1,7 +1,9 @@
 import {BrowserRouter, Link} from 'react-router-dom';
 import '../App.css';
 import '../css/table.css';
+import '../css/member.css';
 
+import Jisun from '../images/jisun.jpg';
 function Member() {
     return (
         <div>
@@ -14,9 +16,55 @@ function Member() {
             </ul>
             </nav>
             <br/><br/>
-            <div className="div-button">
-                멤버 페이지에 잘 들어왔음.
+            <div className="membertable" >
+                <table className="mt">
+                    <tr>
+                        <td className="membertd">
+                        <img className="jisun" src={Jisun}/>
+                        </td>
+                        <td>
+                        <img className="jisun" src={Jisun}/>
+                        </td>
+                        <td>
+                        <img className="jisun" src={Jisun}/>
+                        </td>
+                        <td>
+                        <img className="jisun" src={Jisun}/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <div className="jisun-des">
+                            이름 : 오지선 <br/>
+                            담당 : 개발팀 <br/>
+                            소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        </div>
+                        </td>
+                        <td>
+                        <div className="jisun-des">
+                        이름 : 오지선 <br/>
+                        담당 : 개발팀 <br/>
+                        소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        </div>
+                        </td>
+                        <td>
+                        <div className="jisun-des">
+                        이름 : 오지선 <br/>
+                        담당 : 개발팀 <br/>
+                        소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        </div>
+                        </td>
+                        <td>
+                        <div className="jisun-des">
+                        이름 : 오지선 <br/>
+                        담당 : 개발팀 <br/>
+                        소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
+                        </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
+
             </div>
     );
 };
