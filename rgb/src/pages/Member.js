@@ -3,7 +3,9 @@ import '../App.css';
 import '../css/table.css';
 import '../css/member.css';
 import Jisun from '../images/jisun.jpg';
-import Seungjae from '../images/seungjae.jpg';
+import Heeho from '../images/heeho.jpg';
+import Seungwon from '../images/seungwon.png';
+import Seungjae from '../images/seungjae.png';
 
 function Member() {
     return (
@@ -23,36 +25,36 @@ function Member() {
                         <img className="jisun" src={Jisun}/>
                         </td>
                         <td>
-                        <img className="jisun" src={Jisun}/>
+                        <img className="seungwon" src={Seungwon}/>
                         </td>
                         <td>
-                        <img className="jisun" src={Jisun}/>
+                        <img className="heeho" src={Heeho}/>
                         </td>
                         <td>
                         <img className="seungjae" src={Seungjae}/>
                         </td>
                     </tr>
-                    <tr>
+                    <tr className="cha">
                         <td>" 멈추는 법을 <br/> 모르는 토끼 오지선 "</td>
-                        <td>"  "</td>
-                        <td>"  "</td>
+                        <td>" 데이터 분석의<br></br>강동원 정승원 "</td>
+                        <td>" 따듯한 로봇 음-칰잉~ <br></br>정희호 "</td>
                         <td>" 분위기를 상쾌하게 만들어줄<br/>미세먼지 필터 문승재 "</td>
                     </tr>
                     <tr>
-                        <td>
-                        <div className="jisun-des">
+                        <td  className="jisun-des">
+                        <div >
                             담당 : 개발팀 <br/>
                             소개 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학
                         </div>
                         </td>
-                        <td>
-                        <div className="jisun-des">
+                        <td  className="jisun-des">
+                        <div >
                         담당 : 분석팀 <br/>
                         소속 : 세종대학교 <br/> 데이터사이언스<br/><br/>
                         </div>
                         </td>
-                        <td>
-                        <div className="jisun-des">
+                        <td  className="jisun-des">
+                        <div >
                         담당 : 개발팀 <br/>
                         소속 : 세종대학교 <br/> 지능기전공학부<br/>무인이동체공학<br/>
 

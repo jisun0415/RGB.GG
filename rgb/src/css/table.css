@@ -73,3 +73,7 @@ td :hover:before{
         z-index: -1;
     
 }
+
+.cha{
+    font-style : italic;
+}
