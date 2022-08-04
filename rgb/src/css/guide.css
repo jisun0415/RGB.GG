@@ -7,7 +7,7 @@
 }
 
 .guidetable{
-    text-align: center;
+    text-align: left;
     color: black;
 }
 
@@ -19,7 +19,7 @@
     margin-left: 20px;
 }
 
-.searchinghome, .ingoogle, .googlefinace{
+.searchinghome, .ingoogle, .googlefinace,.rankkk{
     width: 300px;
 }
 

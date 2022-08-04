@@ -1,26 +1,10 @@
-body {
-    height: 100%;
-    margin: 0;
-    background-size: 100% ;
-    font-family: sans-serif;
-    font-weight: 100;
-}
-/*랭킹페이지 문구*/
-.content{
-    font-size:15px;
-    margin-left :14%; 
-    position : absolute;
-    top : 31.8%;
-    color: rgb(232, 232, 232);
-    font-weight: bold;
-}
 
 .container {
     position: absolute;
-    top: 223px;
+    top: 230%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-bottom : 50px;
+
 }
 
 table {
@@ -28,30 +12,53 @@ table {
     border-collapse: collapse;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    margin-bottom : 50px;
 }
 
 th,
 td {
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.844);
-    color: rgb(0, 0, 0);
+    background-color: rgba(255,255,255,0.2);
+    color: white;
     text-align: center;
     font-weight: bold;
 }
 
-/*표에서 젤 윗줄*/
+th {
+    text-align: center;
+}
+td{
+    position :relative;
+}
+
 thead th {
-    background-color: #8bd8bddf;
-    color: rgb(0, 0, 0);
+    background-color: #55608f;
+    color: white;
     
 }
 
 tbody tr :hover{
-    background-color: rgb(255, 255, 255);
+
+    background-color: rgba(255,255,255,0.3);
+    
+}
+td :hover:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -9999px;
+        bottom: -9999px;
+        background-color: rgba(255,255,255,0.2);
+        z-index: -1;
     
 }
 
+.content{
+    margin-left:10%;
+    color: white;
+    font-weight: bold;
+    font-size:15px;
+}
 
 .cha{
     font-style : italic;
