@@ -13,11 +13,17 @@
 
 .guidetable .gt .guidetitle{
     font-weight: bold;
-    font-size:20px;
-    color: black;
+    font-size:30px;
+    color: white;
     text-align: left;
     margin-left: 20px;
 }
+
+.searchinghome, .ingoogle, .googlefinace{
+    width: 300px;
+}
+
+
 
 
 
