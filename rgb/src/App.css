@@ -1,17 +1,11 @@
 
-body
-{
-  background-size: 100%;
-  background-color: #DCE2F0;
-}
-
 #menubar{
   font-size : 20px;
-  background-color: white;
+  background-color: #8BD8BD;
   }
 #menubar :hover
 {
-    color:black;
+    color:rgb(215, 215, 215);
 }
 
 #menubar ul li{
@@ -20,7 +14,7 @@ body
   padding : 10px 15px;
   }
 #menubar ul li a{
-      color: #595959;
+      color: #00203F;
       text-decoration : none;
       text-align: center;
       font-weight: bold;
@@ -31,19 +25,19 @@ body
   width: 700px;
   height:50px;
   position: absolute;
-  top : 60%;
+  top : 56%;
   left:50%;
   transform: translate(-50%,-50%);
 }
-.logo2
+.lo
 {
-  height: 200px;
+  height: 560px;
   position: absolute;
-  top : 40%;
-  left:52%;
+  top : 49%;
+  left:49.5%;
   transform: translate(-50%,-50%);
 }
-
+/*메인페이지 서칭바*/
 .search{
   height: 55px;
   width: 800px;
@@ -51,10 +45,11 @@ body
   border-radius:30px;
   background-color: #ffffff;
   position : absolute;
-  top:70%;
+  top:64%;
   left:50%;
   transform:translate(-50%,-50%);
 }
+/*랭킹페이지 서칭바 */
 .search-small{
   height: 35px;
   width: 500px;
@@ -62,8 +57,8 @@ body
   border-radius:30px;
   background-color: #ffffff;
   position : absolute;
-  top:15%;
-  left:50%;
+  top:16%;
+  left:51%;
   transform:translate(-50%,-50%);
 }
 

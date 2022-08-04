@@ -1,7 +1,7 @@
 import {BrowserRouter, Link} from 'react-router-dom';
 import '../App.css';
 import '../css/table.css';
-import styled from "@emotion/styled";
+
 
 function About() {
     const obj={

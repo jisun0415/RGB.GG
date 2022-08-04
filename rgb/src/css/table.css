@@ -1,27 +1,23 @@
 body {
     height: 100%;
-}
-
-body {
     margin: 0;
-    background: url(https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/guest/image/lAkK4-zh0l5z2fJtJUMizoReHk0.JPG) fixed;
     background-size: 100% ;
     font-family: sans-serif;
     font-weight: 100;
 }
-
+/*랭킹페이지 문구*/
 .content{
     font-size:15px;
-    margin-left :140px; 
+    margin-left :14%; 
     position : absolute;
-    top : 23%;
-    color: black;
+    top : 31.8%;
+    color: rgb(232, 232, 232);
     font-weight: bold;
 }
 
 .container {
     position: absolute;
-    top: 235%;
+    top: 223%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom : 50px;
@@ -38,41 +34,24 @@ table {
 th,
 td {
     padding: 15px;
-    background-color: rgba(255,255,255,0.2);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.844);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
 }
 
-th {
-    text-align: center;
-}
-td{
-    position :relative;
-}
-
+/*표에서 젤 윗줄*/
 thead th {
-    background-color: #55608f;
-    color: white;
+    background-color: #8bd8bddf;
+    color: rgb(0, 0, 0);
     
 }
 
 tbody tr :hover{
+    background-color: rgb(255, 255, 255);
+    
+}
 
-    background-color: rgba(255,255,255,0.3);
-    
-}
-td :hover:before{
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: -9999px;
-        bottom: -9999px;
-        background-color: rgba(255,255,255,0.2);
-        z-index: -1;
-    
-}
 
 .cha{
     font-style : italic;

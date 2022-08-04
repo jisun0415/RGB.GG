@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 import imagemain from '../images/slogan.png';
-import imagemain2 from '../images/logo2.png';
+import imagemain2 from '../images/lo.png';
 import '../App.css';
 
 const Home = () =>{
@@ -16,7 +16,7 @@ const Home = () =>{
     </nav>
 
     <div>
-    <img className="logo2" src={imagemain2}/>
+    <img className="lo" src={imagemain2}/>
     </div>
 
     <br></br>

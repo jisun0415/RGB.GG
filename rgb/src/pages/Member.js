@@ -1,6 +1,5 @@
 import {BrowserRouter, Link} from 'react-router-dom';
 import '../App.css';
-import '../css/table.css';
 import '../css/member.css';
 import Jisun from '../images/jisun.jpg';
 import Heeho from '../images/heeho.jpg';
