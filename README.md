@@ -25,4 +25,3 @@ Reconfiguration, Ground-breaking, Being of new generation
 더불어 주식에 대한 여러 정보(발전 가능성, 예측 가격 등)를 쉽게 사용자가 얻을 수 있으며 
 주식을 처음 해보는 사용자부터 상세 정보 및 비교 분석이 필요한 모든 사용자들에게 유용한 서비스를 제공합니다.
 
-[rgb 발표 자료.pptx](https://github.com/jisun0415/RGB.GG/files/13316043/rgb.pptx)
